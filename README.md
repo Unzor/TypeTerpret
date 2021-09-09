@@ -3,7 +3,7 @@ A JavaScript API for a TypeScript interpreter based on @niutech's TypeScript com
 
 Again, thanks to @niutech for the original compiler & interpreter.
 
-NPM package is coming soon! Meanwhile, use typeterpret-node.js in /dist-node.
+NPM package is coming soon! Meanwhile, use typeterpret-node.js in /dist-node. (NOT FINISHED YET)
 
 # Usage
 ## Browser
