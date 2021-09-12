@@ -5,6 +5,8 @@ Again, thanks to @niutech for the original compiler & interpreter.
 
 To use it for NodeJS, run ```npm install typeterpret```. Note that the NPM module reads from your node_modules folder to get the interpreter, so you will need read access to node_modules.
 
+Note: the NPM module uses JSDOM to implement the needed browser features to work.
+
 # Usage
 ## Browser
 ```javascript
@@ -27,6 +29,6 @@ console.log(stringTest);
 var TypeTerpret=require('typeterpret');
 
 TypeTerpret.eval(code, function(a){
-        alert(a);
-      });
+        console.log(a);
+});
 ```
